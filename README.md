@@ -55,3 +55,8 @@ Version 1.5
 Version 1.52
 ------------
  - Re-organized the Parser. The parser is now a self-contained object with a constructor.
+
+ 
+Links
+=====
+Original page [http://www.masswerk.at/termlib/index.html]
