@@ -1,5 +1,8 @@
+
+[TOC]
+
 mass:werk termlib.js
-=====================
+=======
 The JavaScript library "termlib.js" provides a `Terminal' object, which facillitates a simple and object oriented approach to generate and control a terminal-like interface for web services.
 "termlib.js" features direct keyboard input and powerful output methods for multiple and simultanious instances of the 'Terminal' object.
 The library was written with the aim of simple usage and a maximum of compatibility with minimal foot print in the global namespace.
@@ -44,11 +47,14 @@ Key Features:
 
 Note on Backward Compatibility:
 ===============================
-
+-----------
 Version 1.5
+-----------
  - Changed the license.
  - Also dropped support for Netscape 4 (layers) and included the socket extension in the main library.
  - As the socket extension is now included in the library, please delete any script-tags refering to "termlib_socket.js" from older applications!
  
+------------
 Version 1.52
+------------
  - Re-organized the Parser. The parser is now a self-contained object with a constructor.
